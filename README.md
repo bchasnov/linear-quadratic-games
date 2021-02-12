@@ -1,5 +1,12 @@
+
+
+
+
 # A benchmark for multi-agent learning in games
 Gradient learning in linear quadratic games.
+
+![](https://raw.githubusercontent.com/bchasnov/linear-quadratic-games/master/notebooks/lqr-tau-simgrad-leave.gif?token=AAT7GEJVUEDDD3WVEZN343TAEX7VE)
+![](https://raw.githubusercontent.com/bchasnov/linear-quadratic-games/master/notebooks/lqr-simgrad-leave.gif?token=AAT7GEIPZMP5LJIMZ6ZD4TTAEX7Q4)
 
 State dynamics `(A, B1, B2)`:
 `x(t+1) = A*x(t) + B1*u1(t) + B2*u2(t)`
