@@ -91,9 +91,9 @@ def bestresponses(K, L, P, W, A, B, Q, R):
     B1, B2 = B
     (R11, R12), (R21, R22) = R
 
-    K = solve( R11 + B1.T @ P @ B1, -B1.T @ P @ (A + B2@L) )
-    L = solve( R22 + B2.T @ W @ B2, -B2.T @ W @ (A + B1@K) )
-    return K, L
+    _K = solve( R11 + B1.T @ P @ B1, -B1.T @ P @ (A + B2@L) )
+    _L = solve( R22 + B2.T @ W @ B2, -B2.T @ W @ (A + B1@K) )
+    return _K, _L
 
 
 def spectral_radius(A):
